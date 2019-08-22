@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" href="css/biaoqian.css" />
+		<link rel="stylesheet" type="text/css" href="css/public.css"/>
+		<link rel="stylesheet" type="text/css" href=" css/clearmoney.css"/>
+		<script src="js/tools.js" type="text/javascript" charset="utf-8"></script>
+		<script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script>
+	</head>
+	<body>
+		<div class="content">
+			<div class="order-information-header">
+				<span>核对订单信息</span>
+			</div>
+			<div class="selector-address">
+				<span>选择收货地址</span>
+			</div>
+			<div class="address-box">
+				<div class="address">
+					<p class="person-name">邓曦 </p>
+					<span class="change-text text-color-ff2d52">修改</span>
+					<p class="phone-number"> 177*****719 </p>
+					<p class="address-text"> 重庆 重庆市 南岸区 南坪街道 </p>
+					<p class="address-text-more">南岸区南坪浪高凯悦国际商务大厦
+B座29-c1 </p>
+				</div>
+				<div class="address no">
+					<p class="person-name">杨曦 </p>
+					<span class="change-text text-color-ff2d52 no">修改</span>
+					<p class="phone-number"> 136*****618 </p>
+					<p class="address-text"> 重庆 忠县 健康路 </p>
+					<p class="address-text-more">北京故宫是我家</p>
+				</div>
+				<div class="address no">
+					<img src="img/add-address-icon.jpg"/>
+				</div>
+			</div>
+			<div class="sending-way-box">
+				配送方式
+			</div>
+			<div class="sending-ways">
+				<div class="sending-way active">
+					货到付款
+				</div>
+				<div class="sending-way">
+					在线支付
+				</div>
+				<div class="sending-way">
+					上门自提
+				</div>
+			</div>
+			<div class="sending-commodity-lists-header">
+				送货清单
+			</div>
+			<!--商店信息-->
+			<div class="my-shopping-car-header  font-12 background-fff9f5">
+				<span class="all">商家：洋货码头自营店</span>
+				<span class="commodity">商品</span>
+				<span class="one-price">单价</span>
+				<span class="count">数量</span>
+				<span class="all-price">金额</span>
+			</div>
+			<!--商品信息-->
+			<div class="shoping-car-commodity-box ">
+				<img src="img/commodity1.png"/>
+				<span class="shoping-car-commodityname font-14 ">
+					此处是商品名称，最多显示两排，如有超出隐藏
+				</span>
+				<!--商品基本信息-->
+				<div class="commodity-information">
+					<p class="color">颜色：蓝色</p>
+					<p class="size">尺寸：XXL</p>
+				</div>
+				<!--价格-->
+				<div class="commodity-one-price">
+					<span class="over-price font-12 ">￥233.00</span>
+					<span class="font-14 fontwight-700">￥189.00</span>
+					<span class="buy font-12">
+						团购
+					</span>
+				</div>
+				<!--数量-->
+				<div class="commodity-count-box  font-12">
+					
+					<a class="count"> 1 </a>
+					
+				</div>
+				<!--金额-->
+				<span class="actually-money font-14">￥189.00</span>
+			</div>
+			<div class="shoping-car-commodity-box ">
+				<img src="img/commodity1.png"/>
+				<span class="shoping-car-commodityname font-14 ">
+					此处是商品名称，最多显示两排，如有超出隐藏
+				</span>
+				<!--商品基本信息-->
+				<div class="commodity-information">
+					<p class="color">颜色：蓝色</p>
+					<p class="size">尺寸：XXL</p>
+				</div>
+				<!--价格-->
+				<div class="commodity-one-price">
+					<span class="over-price font-12 ">￥233.00</span>
+					<span class="font-14 fontwight-700">￥189.00</span>
+					<span class="buy font-12">
+						团购
+					</span>
+				</div>
+				<!--数量-->
+				<div class="commodity-count-box  font-12">
+					
+					<a class="count"> 1 </a>
+					
+				</div>
+				<!--金额-->
+				<span class="actually-money font-14">￥189.00</span>
+			</div>
+			
+			<!--优惠券及金额计算-->
+			<div class="discount-money font-12 text-color-dark">
+				<span class="discount-text ">优惠券</span>
+				
+				<div class="floatr">
+					<span class="font-14 text-color-ff2d52 floatr money-pay">378.00</span><a class="font-14 text-color-ff2d52 floatr">￥</a>
+					<span class="floatr">商品金额总计：</span>
+					<span class="floatr">共<a class="text-color-ff2d52 commodity-count">2</a>件商品</span>
+				</div>
+			</div>
+			<div class="discount-down-lists-box">
+				<select name="" class="discount-down-lists">
+					<option value="" >没有可选的优惠券</option>
+				</select>
+				<span class="font-14 redfont">0.00</span>
+				<span class="font-14 redfont">￥</span>
+				<span class="font-12  floatr">运费：</span> 
+			</div>
+			<div class="price-left-box">
+				<div class="price-box-left">
+					<div class="tax-money ">
+						<span>税费：</span>
+						<span class="font-14 text-color-ff2d52">￥</span>
+						<span class="font-14 text-color-ff2d52">10.00</span>
+					</div>
+					<div class="discount ">
+						<span>优惠券：</span>
+						<span class="font-14 text-color-ff2d52">￥</span>
+						<span class="font-14 text-color-ff2d52">0.00</span>
+					</div>
+					<div class="order-count ">
+						<span>订单总计：</span>
+						<span class="font-14 text-color-ff2d52">￥</span>
+						<span class="font-14 fontwight-700 text-color-ff2d52">388.00</span>
+					</div>
+				</div>
+			</div>	
+			<div class="btn-pay-box">
+				<div class="btn-pay-box-left">
+				<span class="person-name"> 邓曦 </span>
+				<span class="phone-number"> 17784*****19</span>
+				<p class="address-text text-over-hidden-2">重庆 重庆市 南岸区 南坪街道 南坪浪高凯悦国际商务大厦B座29-c1</p>
+				</div>	
+				<div class="pay-btn">
+					确认并支付
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
+<script type="text/javascript">
+	bodysize();
+</script>
+<script src="js/clearmoney.js" type="text/javascript" charset="utf-8"></script>

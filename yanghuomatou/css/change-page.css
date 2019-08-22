@@ -1,0 +1,47 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.turn-page{
+	width: 320px;
+	height: 40px;
+	display: inline-block;
+	
+}
+.turn-page .page{
+	width: 40px;
+	height: 100%;
+	text-align: center;
+	line-height: 40px;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+}
+.turn-page .button:last-child, .turn-page .button:first-child{
+	width: 60px;
+	height: 100%;
+	text-align: center;
+	line-height: 40px;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+}
+.turn-page .page:hover{
+	height: 100%;
+	text-align: center;
+	line-height: 40px;
+	background:#FF2D52;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	cursor: pointer;
+}
+.turn-page .button:hover{
+
+	background:gray;
+	cursor: pointer;
+}
+
+
+

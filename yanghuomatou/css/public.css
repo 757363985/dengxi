@@ -1,0 +1,169 @@
+.font-12{
+ 	font-size: 12px;
+}
+.font-14{
+ 	font-size: 14px;
+}
+.font-16{
+ 	font-size: 16px;
+}
+.font-20{
+ 	font-size: 20px;
+}
+.font-18{
+ 	font-size: 18px;
+}
+.font-22{
+ 	font-size: 22px;
+} 
+.font-24{
+ 	font-size: 24px;
+} 
+.font-30{
+ 	font-size: 30px;
+}
+.font-36{
+ 	font-size: 36px;
+}
+.text-color-white{
+	color: #fff;
+}
+.text-color-black{
+	color: #000;
+}
+.text-color-deepdark{
+	color: #333;
+}
+.text-color-dark{
+	color: #666;
+}
+.text-color-lightdark{
+	color: #999;
+}
+.background-red{
+	background: #ff2d52;
+}
+.background-deepred{
+	background: #ec193e;
+}
+.background-gray{
+	background: #f2f2f2;
+}
+.background-black{
+	background: #535353;
+}
+.content{
+	width: 1200px;
+	margin: 0 auto;
+}
+.clearfix:after{
+	content: ' ';
+	clear: both;
+	display: block;
+}
+.floatl{
+	float: left;
+}   	 	 
+.floatr{
+	float: right;
+}
+.marginlr-5{
+	margin: 0 5px;
+}
+.border{
+	border: 1px solid #CCCCCC;
+}
+.border-bottom{
+	border-bottom: 1px solid #CCCCCC;
+}
+.text-over-hidden-3{
+display: -webkit-box;
+-webkit-box-orient: vertical;
+-webkit-line-clamp: 3;
+text-overflow:ellipsis;
+overflow: hidden;
+}
+.text-over-hidden-2{
+display: -webkit-box;
+-webkit-box-orient: vertical;
+-webkit-line-clamp: 2;
+text-overflow:ellipsis;
+overflow: hidden;	
+}
+.text-over-hidden-1{
+	overflow: hidden;/*超出部分隐藏*/
+    text-overflow:ellipsis;/* 超出部分显示省略号 */
+    white-space: nowrap;
+}
+.fontwight-700{
+	font-weight: 700;
+}
+.background-fff9f5{
+	background: #FFF9F5;
+}
+.text-color-ff2d52{
+	color:#FF2D52;
+}
+.text-no-blue{
+	-webkit-user-select:none;
+   -moz-user-select:none;
+   -ms-user-select:none;
+   user-select:none;
+}
+/*换页*/
+.change-box{
+	width: 960px;
+	height: 74px;
+	margin-left: 240px;
+
+}
+.change-paper{
+	float: right;
+	height: 100%;
+	padding: 18px 0;
+}
+.change-paper .btn{
+	display: inline-block;
+	width: 68px;
+	height: 34px;
+	border: 1px solid #CCCCCC;
+	border-radius: 4px;
+	text-align: center;
+	font-size: 12px;
+	line-height: 32px;
+	color: #666666;
+	margin-left: 8px;
+	background: #FFFFFF;
+}
+.change-paper .btn.on{
+	background: #DDDDDD;
+	cursor: not-allowed;
+}
+.change-paper li{
+	display: inline-block;
+	width: 34px;
+	height: 34px;
+	border: 1px solid #CCCCCC;
+	border-radius: 4px;
+	text-align: center;
+	font-size: 12px;
+	line-height: 32px;
+	color: #666666;
+	margin-left: 8px;
+}
+.change-paper .page{
+	display: inline-block;
+	width: 34px;
+	height: 34px;
+	border: 1px solid #CCCCCC;
+	border-radius: 4px;
+	text-align: center;
+	font-size: 12px;
+	line-height: 32px;
+	color: #666666;
+	margin-left: 8px;
+}
+.change-paper .page.active{
+	background: #FF2D52;
+	color: #FFFFFF;
+}	

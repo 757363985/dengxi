@@ -1,0 +1,331 @@
+
+.right-fixed{
+	position: fixed;
+	right: 0;
+	height: 100%;
+	width: 300px;
+}
+.iframe-top{
+	width: 100%;
+	height: 38px;
+}
+.yanghuoicon-box{
+	height: 130px;
+	padding: 30px 0 0 0;
+}
+/*中间部分*/
+.main-content{
+	margin: 0;
+	height: 574px;
+	background: url(../img/logonredbanner.jpg) no-repeat;
+	background-size: cover;
+}
+/*中间白色部分*/
+.form{
+width:346px;
+height: 380px;
+background: white;
+float: right;
+margin: 40px;
+padding: 24px 20px ;	
+}
+/*第一层*/
+.layer{
+	margin: 16px 0;
+	position: relative;
+}
+.layer label.error{
+	font-size: 12px;
+	color: #FF2D52;
+	position: absolute;
+	bottom: -16px;
+}
+.first-layer{
+	height: 44px;
+	width: 100%;
+	line-height: 44px;
+}
+.first-layer a{
+	float: right;
+	color: #FF2D52;
+	font-size: 12px;
+}
+.first-layer span{
+	color: #999999;
+	font-size: 18px;
+}
+.first-layer .radious{
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	background: #FF2D52;
+	color: #F2F2F2;
+	float: right;
+	border-radius: 8px;
+	margin-top: 14px;
+	margin-left: 10px;
+	font-size: 16px;
+	line-height: 14px;
+	text-align: right;
+	
+}
+/*第二层*/
+.second-layer{
+	width: 100%;
+	height:26px ;
+	background: rgba(255 249 245 );
+	
+}
+.second-layer span{
+	width: 80%;
+	font-size: 12px;
+	display: inline-block;
+	vertical-align: 5px;
+	text-align: center;
+	color:rgb(102 102 102) ;	
+}
+/*第三层*/
+.three-layer{
+	width: 100%;
+	height: 40px;
+	margin-top: 15px;
+	border: 1px solid #666666;
+}
+.four-layer{
+	width: 100%;
+	height: 40px;
+	margin-top: 15px;
+	border: 1px solid #666666;
+}
+.span-icon{
+	display: inline-block;
+	width: 34px;
+	height: 34px;
+	margin-top: 2px;
+	border-right: 1px solid #666666;
+}
+.three-layer .span-icon{
+	background: url(../img/personheader.jpg);
+}
+.four-layer .span-icon{
+	background: url(../img/key.jpg);
+}
+
+.three-layer .uersname{
+	width: 86%;
+	height: 100%;
+	border: none;
+	vertical-align: top;
+	float: right;
+}
+/*第四层*/
+.four-layer .password{
+	width: 86%;
+	height: 98%;
+	border: none;
+	vertical-align: top;
+	float: right;
+}
+/*第五层*/
+.five-layer {
+	width: 100%;
+	margin-top:15px;
+	color: rgb(102 102 102);
+	font-size:14px;
+}
+[name="auto-logon"]{
+	vertical-align: middle;
+	width: 16px;
+	height: 16px;
+	background: transparent;
+}
+.forget-password{
+	float: right;
+}
+.btn-logon{
+	margin-top: 15px;
+	display: inline-block;
+	width: 100%;
+	height: 36px;
+	background: #FF2D52;
+	font-size:18px ;
+	color: #FFFFFF;
+}
+/*最后一层*/
+.last-layer{
+	background: rgb(255 255 255);
+	width: 100%;
+	height: 54px;
+	padding: 20px 0 0 0;
+}
+.last-layer span{
+	vertical-align: 10px;
+}
+.last-layer a{
+	display: inline-block;
+	width: 32px;
+	height: 32px;
+}
+.last-layer .qq{
+
+	background: url(../img/qqicon.jpg);
+	
+}
+.last-layer .weixin{
+	background: url(../img/weixinicon.jpg) no-repeat;
+}
+.last-layer .weibo{
+	background: url(../img/weiboicon.jpg);
+}
+/*底部部分开始*/
+.tail-box{
+	width: 100%;
+	border-top:2px solid red;
+}
+.tail-content{
+	margin: 0 auto;
+	width: 1200px;
+	height:300px;
+
+}
+/*第一行开始*/
+.tail-content-header{
+	width: 100%;
+	height: 120px;
+	background: white;
+	padding: 38px 0px 0 50px;
+	list-style: none;
+}
+
+.tail-content-header li:nth-child(1){
+	float: left;
+	width: 66px;
+	height: 66px;
+	background: url(../img/zhengpin.png) no-repeat;
+}
+.tail-content-header li:nth-child(3){
+	float: left;
+	display: inline-block;
+	width: 66px;
+	height: 66px;
+	background:url(../img/shui.png) no-repeat;
+}
+.tail-content-header li:nth-child(5){
+	float: left;
+	width: 66px;
+	height: 66px;
+	background:url(../img/price.png) no-repeat;
+}
+.tail-content-header li:nth-child(7){
+	float: left;
+	width: 66px;
+	height: 66px;
+	background:url(../img/wupin.png) no-repeat;
+}
+.tail-content-header li:nth-child(9){
+	float: left;
+	width: 66px;
+	height: 66px;
+	background:url(../img/souhou.png) no-repeat;
+}
+.tail-content-header-text{
+	float: left;
+	position: relative;
+	margin-top: 10px;
+	display: inline-block;
+	width: 150px;
+	height: 50px;
+	padding: 0 20px 0 5px;
+	font-weight: 800;
+}
+.tail-content-header-text-small{
+	display: block;
+	font-size: 12px;
+	color: #9E9E9E;
+	font-weight: initial;
+}
+/*底部第一行结束*/
+/*底部第二行开始*/
+.tail-content-foot{
+	width: 100%;
+	height: 170px;
+	padding: 20px 0 0 50px;
+}
+.tail-content-foot ul{
+	width:180px;
+	height: 100%;
+	list-style: none;
+	float: left;
+
+}
+.tail-content-foot ul li{
+	width: 100%;
+	height: 30px;
+	padding: 10px 0 0 0;
+	font-size: 14px;
+	color: #9E9E9E;
+}
+.tail-content-foot div{
+	width: 180px;
+	height: 80%;
+	float: left;
+	border-left:1px solid #9E9E9E ;
+}
+
+.tail-content-foot div .tel{
+	border: none;
+	margin: 20px 0 0 0;
+	height: 30px;
+	font-size: 20px;
+	text-align: center;
+}
+.tail-content-foot div .time{
+	border: none;
+	margin: 10px 0 0 0;
+	height: 20px;
+	font-size: 14px;
+	text-align: center;
+	color: #9E9E9E;
+}
+/*底部第二行结束*/
+/*底部第三行开始*/
+.tail-content-three-box{
+	width: 100%;
+	height: 40px;
+	background: black;
+
+}
+
+
+.tail-content-three{
+	width: 1200px;
+	margin: 0 auto;
+	padding: 0 0 0 50px;
+}
+
+
+.tail-content-three-icon1{
+	width: 80px;
+	height: 28px;
+	background: url(../img/tail-content-three-icon1.png);
+	float: left;
+	margin-top: 10px;
+}
+.tail-content-three-icon2{
+	width: 79px;
+	height: 28px;
+	background: url(../img/tail-content-three-icon2.png);
+	float: left;
+	margin-left: 15px;
+	margin-top: 10px;	
+}
+.tail-content-three-text{
+	height: 28px;
+	float: left;
+	margin-left: 15px;
+	margin-top: 10px;
+	color: #fff;
+	line-height: 28px;
+	font-size: 12px;
+}
+/*底部部分结束*/
