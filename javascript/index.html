@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+    <style type="text/css">
+    li{
+    	list-style:none;
+    }	
+    </style>
+        
+	</head>
+	<body>
+	<ul>
+		<li class="dx">邓</li>		
+		<li class="dx">曦</li>		
+		<li class="dx">真</li>		
+		<li class="dx">的</li>		
+		<li class="dx">好</li>		
+		<li class="dx">帅</li>		
+		<li class="dx">呀</li>		
+	</ul>	
+		
+		
+	</body>
+  <script type=" text/javascript">
+ var obj=document.getElementsByClassName("dx");
+ 
+  for(var i=0;i<obj.length;i++ ) {
+	if(i%4==0)
+	
+	{
+ obj[i].style.color="red";
+ obj[i].style.backgroundColor="blueviolet";
+ obj[i].style.fontFamily="微软雅黑";
+ }
+else if(i%4==1)
+	{
+ obj[i].style.color="green";
+ obj[i].style.backgroundColor="yellow";
+ obj[i].style.fontFamily=" 隶书";
+	}
+	
+	else if(i%4==2 )
+	{ 
+ obj[i].style.color="blue";
+ obj[i].style.backgroundColor="orange";
+ obj[i].style.fontFamily=" 华文琥珀";
+	}
+    else{
+    	
+    	obj[i].style.color="black";
+ obj[i].style.backgroundColor="white";
+ obj[i].style.fontFamily=" 华文琥珀";
+    	
+    }
+  }
+ 
+  	
+  	
+  	
+  	
+  	
+  </script>
+
+
+</html>
